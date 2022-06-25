@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- This is the main template for the site, with index.jsx building the content and behavior -->
+    
+    <title>Hello React!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogImNhbml0ZnkiLAogICJzaG9ydF9uYW1lIjogImNhbnRpZnkiLAogICJ0aGVtZV9jb2xvciI6ICIjZmNiOTc2IiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmNiOTc2IiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAic2NvcGUiOiAiLyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiaWNvbnMiIDogWwogIHsKICAic3JjIjogImh0dHBzOi8vY2RuLmdsaXRjaC5nbG9iYWwvOGUzZGE2ODUtMmRhYy00MmI3LWJlYzMtMmViZmNkM2RiMDM2L2NhbnRpZnlfZnJlc2h3YXlzNTEyeDUxMjUucG5nP3Y9MTY1NjA5Mzk5NzM5OCIsCiAgInNpemVzIjogICI1MTJ4NTEyIiwKICAidHlwZSI6ICJpbWFnZS9wbmciCn0KICBdLAogICJzcGxhc2hfcGFnZXMiOiBudWxsCn0KCg==" />
+    <script type="module" crossorigin src="/assets/index.e3504a5d.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.f96b2e15.js">
+    <link rel="stylesheet" href="/assets/index.5d58cbbf.css">
+  </head>
+  
+  <script type="text/javascript">
+  
+    (function() {
+     console.log("Trying to register service worker");
+    
+    if ("serviceWorker" in navigator) {
+      
+      navigator.serviceWorker
+      .register("serviceWorker.js")
+      .then(function(reg) {
+            console.log("Registration succeeded", reg);
+            })
+            .catch(function(error) {
+              console.log("Registration failed with" , error);
+            })
+    }
+     }) () ;;
+  
+  </script>
+  
+  
+  
+  <body>
+    
+    <div id="root"></div>
+    
+    
+  </body>
+  
+  
+  
+  
+</html>
